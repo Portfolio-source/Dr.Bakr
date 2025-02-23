@@ -160,3 +160,72 @@ header p {
   border-radius: 2.67em;
   padding: 1.3em;
 }
+
+/* Mobile Responsive Updates */
+@media screen and (max-width: 768px) {
+  .navmm {
+    gap: 2em;
+  }
+
+  header .drinfo img {
+    width: 8em;
+    height: 8em;
+  }
+
+  header h2 {
+    font-size: 2em;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  .team {
+    width: 90%;
+    margin: 1em auto;
+  }
+
+  .assistants div {
+    padding: 0.8em;
+    margin-bottom: 1em;
+  }
+
+  .drinfo {
+    margin: 0.8em;
+    padding: 0.8em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navmm {
+    gap: 1em;
+  }
+
+  .nav1,
+  .nav2 {
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+  }
+
+  header .drinfo img {
+    width: 6em;
+    height: 6em;
+  }
+
+  header h2 {
+    font-size: 1.8em;
+  }
+
+  .scorestitle {
+    font-size: 1.2em;
+  }
+
+  .team {
+    width: 95%;
+    padding: 0.8em;
+  }
+
+  .assistants-title {
+    font-size: 1.5em;
+  }
+}
